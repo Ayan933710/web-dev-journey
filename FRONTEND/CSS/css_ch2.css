@@ -1,0 +1,80 @@
+.upvote {
+  background-color: green;
+  color: aliceblue;
+}
+/*descendant selector*/
+
+#myid p {
+  color: green;
+}
+
+nav a {
+  color: hotpink;
+}
+/*combinators*/
+
+p + h3 {
+  text-decoration: underline;
+}
+.upvote + button {
+  background-color: blue;
+  color: darkgray;
+}
+div > input {
+  background-color: darksalmon;
+}
+
+/*attribute selector*/
+
+input[type="text"] {
+  background-color: lightblue;
+}
+input[type="password"] {
+  background-color: antiquewhite;
+}
+input[type] {
+  background-color: lightpink;
+}
+
+/*pseudo class*/
+
+button:hover {
+  background-color: black;
+}
+
+h3:hover {
+  text-decoration: none;
+}
+
+button:active {
+  background-color: hotpink;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+  background-color: lightgray;
+}
+
+/*pseudo elements*/
+
+h1::first-letter {
+  color: green;
+}
+
+p::first-line {
+  color: blue;
+}
+
+p::selection {
+  background-color: yellow;
+}
+
+/*cascading and specificity*/
+
+h3 {
+  background-color: lime !important;
+}

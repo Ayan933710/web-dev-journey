@@ -1,0 +1,16 @@
+<!-- we use include using <%- %> to create sub-templates into a particular template. Basically to add another .ejs file under a .ejs file to include its content into current file. -->
+<%- include("includes/head.ejs") %>
+  <body>
+    <h2>Welcome to @<%= data.name %> profile page.</h2>
+    <button>Follow</button>
+    <button>Message</button>
+    <p>Followers: <%= data.followers %> &nbsp;&nbsp;&nbsp;&nbsp; Following: <%= data.following %></p>
+    <hr />
+
+    <% for(let post of data.posts) { %>
+    <img src="<%=post.image%>" alt="post" />
+     <p>Likes: <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp; Comments: <%= post.comments %></p>
+    <% } %>
+  </body>
+   <script src="/app.js"></script>
+</html>

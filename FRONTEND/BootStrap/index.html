@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootStrap</title>
+    /* Go to getbootstrap.com and copy the link to the latest version of
+    bootstrap css and paste it here */
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    /* We link style.css after bootstrap css because we want to override some of
+    the default styles of bootstrap. If we link it before, then the styles of
+    bootstrap will override our styles and we won't see any changes. */
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary data-bs-theme fixed-sticky ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="navbar-nav">
+            <button class="nav-link">Home</button>
+            <button class="nav-link">About</button>
+            <button class="nav-link">Contact</button>
+        </div>
+       </nav>
+    <div class="container">
+      <h2>Bootstrap demo</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        odio ut est laborum quos expedita deleniti. Nisi fuga eligendi accusamus
+        nulla architecto, consequatur cumque magnam officia consequuntur iusto,
+        nesciunt repellendus. Quia error asperiores harum temporibus, deleniti
+        atque quam quisquam dolorum eveniet voluptates. Velit amet libero
+        ratione quasi rem! Voluptates iste eaque ad blanditiis omnis qui magnam
+        provident dolorem perferendis odio! Repellat amet quam et quo blanditiis
+        saepe, doloremque labore temporibus quis! Maxime libero illo eaque
+        deserunt nostrum optio omnis voluptas eius, cupiditate, impedit totam,
+        recusandae exercitationem quasi pariatur ratione eos. Quisquam minima
+        odio aperiam accusantium nulla deserunt quasi laudantium ex unde at nisi
+        quidem exercitationem quod deleniti error, aliquam sint fugit voluptatum
+        accusamus blanditiis ipsam quia vitae debitis consequatur! Distinctio.
+        Odit molestias sit aliquid deserunt? Laborum voluptate tempore quos
+        voluptatum excepturi atque, voluptatibus, deleniti, beatae vitae
+        delectus odio quidem repellat. Ullam facere tenetur quo, maiores
+        officiis neque vel beatae. A!
+      </p>
+    </div>
+    <hr />
+
+    <button>Click Me</button>
+    <button class="btn btn-danger">Click Me</button>
+    <button class="btn btn-success">Click Me</button>
+    <button class="btn btn-outline-warning">Click Me</button>
+    <button class="btn btn-secondary">Click Me</button>
+    <br />
+    <a href="#" class="btn btn-success">Google</a>
+    <br />
+    <span class="badge bg-primary">Primary</span>
+    <h2>Followers<span class="badge bg-secondary">100</span></h2>
+    <hr />
+
+    <div class="alert alert-danger">Download Failed</div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Success!</strong> Your file has been downloaded successfully.
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="btn-grp">
+      <button class="btn btn-success">Download Again</button>
+      <button class="btn btn-secondary">Go to Home</button>
+    </div>
+    <hr />
+     
+    <div class="card">
+        <img src="photo.jpg" class="card-img-top" />
+        <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <hr />
+    <div class="container text-center">
+  <div class="row">
+    <div class="col bg-success"> Column </div>
+    <div class="col bg-success"> Column </div>
+    <div class="col bg-success"> Column </div>
+    <div class="row">
+    <div class="col-2 bg-danger"> Column </div>
+    <div class="col-4 bg-danger"> Column </div>
+    <div class="col bg-danger"> Column </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

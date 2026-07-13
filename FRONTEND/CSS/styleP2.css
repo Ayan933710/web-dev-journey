@@ -1,0 +1,43 @@
+.content {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+main {
+  height: 600px;
+}
+#box101 {
+  background-color: aliceblue;
+}
+#box102 {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+#box103 {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+* {
+  padding: 0;
+  margin: 0;
+  color: grey;
+}
+#navbar {
+  height: 60px;
+  background-color: #0f1111;
+}
+button {
+  background-color: #f08804;
+}
+#logo {
+  color: #f08804;
+  font-size: 25px;
+}
+a {
+  margin-right: 200px;
+}
+pre {
+  text-align: center;
+}
+footer {
+  background-color: #0f1111;
+}

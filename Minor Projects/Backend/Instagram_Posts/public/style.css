@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: blueviolet;
+  margin: 1rem 1rem 1rem 20rem;
+}
+
+.body {
+  display: flex;
+}
+
+.posts {
+  background-color: aliceblue;
+  height: 23rem;
+  width: 16rem;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.image {
+  background-color: aqua;
+  margin-left: 8px;
+  height: 13rem;
+  width: 15rem;
+}
+
+img {
+  height: 13rem;
+  width: 15rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.username {
+  margin-top: 10px;
+}
+
+h3,
+h4 {
+  margin: 10px;
+}
+
+.functions {
+  display: flex;
+}
+
+button,
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
+  border-radius: 5px;
+}

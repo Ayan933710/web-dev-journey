@@ -1,0 +1,19 @@
+/* This file is used to demonstrate inheritance in CSS. */
+/* The div element will have a background color of lemonchiffon, and all of its child elements will inherit that background color unless they have their own background color specified. */
+
+div {
+  background-color: lemonchiffon;
+}
+
+form {
+  background-color: lightblue;
+}
+
+input {
+  background-color: inherit;
+}
+
+/* In this example, the div element has a background color of lemonchiffon. The form element, which is a child of the div, has its own background color of lightblue, so it does not inherit the background color from the div. The input element, which is a child of the form, has a background color set to inherit, so it inherits the background color from the form, which is lightblue. */
+
+/* Some properties which cannot be inherited include:
+ * width, height, border, margin, padding, position, display, float, clear, overflow, z-index, and many others. These properties are specific to the element and do not affect its children. */

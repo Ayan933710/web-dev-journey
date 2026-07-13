@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Insta Post</title>
+  </head>
+  <body>
+    <h2>Edit Your Instagram Post</h2>
+    <h3>Post id : <%= post.id %></h3>
+    <h3>Post Username : @<%= post.username %></h3>
+    <form method="POST" action="/ig/posts/<%= post.id %>?_method=PATCH">
+      <input placeholder="enter new image url" name="photo" type="text" />
+      <br />
+      <br />
+      <input placeholder="<%= post.content %>" name="content" type="text" />
+      <br />
+      <br />
+      <button>Update</button>
+    </form>
+  </body>
+</html>

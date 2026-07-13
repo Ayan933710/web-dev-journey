@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+}
+img{
+    margin-right: 200px;
+}
+#photo{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border:2px solid black;
+    position:absolute;
+    right:50px;
+    top: 10px;
+}
