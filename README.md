@@ -51,11 +51,10 @@ My continuous web engineering journey is directed toward mastering the full **ME
 
 While this repository functions as an educational timeline and lab journal, I actively develop full-scale, isolated systems. You can view their individual repositories, comprehensive documentations, and codebases here:
 
-- 📦 **[Amazon Clone Project]** - Complete front-end mock layout and feature architecture.
-- 🎵 **[Spotify Clone]** - Deep dive into UI replication and media component management.
-- 🌤️ **[Weather Dashboard]** - Asynchronous client-side integration tracking real-time API telemetry data.
-- 📝 **[Restaurant Website]** - Clean, responsive landing platform utilizing modern layout designs.
-
+*   📦 **[Amazon Clone Project](https://github.com/Ayan933710/amazon-project)** - Complete front-end mock layout and feature architecture.
+*   🎵 **[Spotify Clone](https://github.com/Ayan933710/spotify-clone)** - Deep dive into UI replication and media component management.
+*   🏰 **[The Dungeon: Tavern & Eatery](https://github.com/Ayan933710/restaurant-website)** - Fully responsive, highly immersive fantasy-themed restaurant landing platform featuring menu grids and location outposts.
+*   🌤️ **[Weather Dashboard](https://github.com/Ayan933710/weather-dashboard)** - Asynchronous client-side integration tracking real-time API telemetry data over a dark-themed visual interface.
 ---
 
 _Maintained as part of an ongoing commitment to full-stack software development._
