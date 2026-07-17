@@ -1,0 +1,26 @@
+body {
+  margin-left: 20px;
+}
+
+.chats {
+  background-color: aliceblue;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 16px;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+}
+
+.message {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  height: 100px;
+  width: 170px;
+}
+
+.msg-func {
+  display: flex;
+}
