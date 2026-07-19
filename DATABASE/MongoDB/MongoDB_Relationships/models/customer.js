@@ -30,6 +30,18 @@ const customerSchema = new Schema({
   ],
 });
 
+// handling deletion of connected models in MongoDB using pre/post middleware
+customerSchema.pre("findOneAndDelete", async () => {
+  console.log("PRE Middleware");
+});
+
+customerSchema.post("findOneAndDelete", async (customer) => {
+  if (customer.orders.length) {
+    let res = await Order.deleteMany({ _id: { $in: customer.orders } });
+    console.log(res);
+  }
+});
+
 const Order = mongoose.model("Order", orderSchema);
 const Customer = mongoose.model("Customer", customerSchema);
 
@@ -71,3 +83,10 @@ const addOrders = async () => {
 };
 
 //addOrders();
+
+const delCust = async () => {
+  let data = await Customer.findByIdAndDelete();
+  console.log(data);
+};
+
+delCust();
