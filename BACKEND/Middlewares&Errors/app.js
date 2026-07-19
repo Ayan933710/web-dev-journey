@@ -3,7 +3,7 @@ const app = express();
 
 // middleware can only work for two tasks : either sending a response or calling the next function to work
 // if a response is send through a middleware it breaks the normal connectivity of request and response and hence all other routes/functions doesnt work as middleware breaks it by sending a response itself
-// middleware always even if the request sent is wrong
+// middleware always work even if the request sent is wrong
 // if no route is given to middleware then it will work for all routes but if given it will specifically work for that route only
 // always write middleware at starting before any route
 // code written after next() can also run
